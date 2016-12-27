@@ -127,7 +127,7 @@ margin-top: 70%;
 
 .dayana{
 font-size: 40px;
-   
+   color:#252A34;
     margin: 7% 0% 5% 1%;
     
 }
@@ -148,8 +148,8 @@ font-size: 30px;
 
 @media only screen and (max-width: 808px) {
 	.perfil-texto{
- 	    width: 303px;
-    margin: 5% 0% 16% 2%;		
+ 	     width: 353px;
+    margin: 14% 0% 16% 2%;	
 	}
 }
 
@@ -175,7 +175,8 @@ font-size: 30px;
 
 @media only screen and (max-width: 800px) {
 	.respon{
- 		margin-top: -15%;
+ 		margin-top: -25%;
+  margin-bottom: 10%;
 
 	}
 }
@@ -184,20 +185,75 @@ font-size: 30px;
 
 
 @media only screen and (max-width: 808px) {
-	.p-perfil{
-     color: #252A34;
-    width: 92%;
-    margin: 1%;
+	.p-perfil {
+    color: #252A34;
+    margin: -2% 0% 0% -1%;
     padding: 1%;
-    font-size: 20px;;
-
-	}
+    font-size: 15px;
+}
 }
 
 
 
 
 /*SKILLS*/
+
+
+@media only screen and (max-width: 608px) {
+#skills {
+    margin-top: 53%;
+    text-align: center;
+    padding: 90px 0px;
+    background-image: url(../img/fondos/fondo3.png);
+}
+
+}
+
+/*botones carrusel*/
+.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    left: 0;
+    top: 21%;
+    
+    font-size: 35px;
+}
+.owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    right: 0;
+    top: 21%;
+    font-size: 35px;
+}
+
+
+
+.owl-carousel .owl-nav .owl-next:hover {
+    position: absolute;
+    left: 0;
+    top: 21%;
+    
+    font-size: 35px;
+}
+.owl-carousel .owl-nav .owl-prev;hover {
+    position: absolute;
+    right: 0;
+    top: 21%;
+    font-size: 35px;
+}
+
+
+.carousel-item .text-center {
+    padding: 0px 50px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    text-decoration: none;
+    padding-right: 3px;
+    border-radius: 5px;
+}
+
+
+/* fin botones carrusel*/
+
 
 
 
@@ -230,7 +286,7 @@ font-size: 14px;
 
 .img-skills{
 display: inline-flex;
-margin: 1% 0% 0% -5%;
+margin: 1% 0% 0% 0%;
 }
 
 .textos-skills{
@@ -304,7 +360,7 @@ font-size: 13px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
+margin-top: 5%;
 }
 
 
@@ -367,11 +423,132 @@ font-size: 13px;
 
 
 
+/*DISEÑO DESPLEGABLE */
+
+#diseño{
+      background-image: url("../img/fondos/fondo5.png");
+
+}
+#desplegable input[type="checkbox"] {
+          display: none;
+}
+#desplegable label {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 120px;
+    cursor: pointer;
+    color: #252A34;
+    margin-top: -0.8%;
+    background-image: url(../img/fondos/fondo5.png);
+}
+#desplegable label:after {
+          content: 'Diseño Gráfico';
+
+          position: absolute;
+          margin-top: 2%;
+          left: 600px;
+              font-family: 'Fredoka One';
+              font-weight: 100;
+
+          font-size: 25px;
+}
+
+.icono-bajar{
+     margin-top: 3%;
+    font-size: 46px;
+    margin-left: 2%; margin-top: 5%;
+  font-size: 25px;
+}
+
+
+.img-diseño{
+  width: 100%;
+  background-color:red;
+  height: 250px;
+  margin: 1% 0% 1% 0%;
+}
+
+#desplegable .desplegarEste {
+          display: none;
+        height: 400px;
+        margin-right: 5%;
+        margin-left:5%;
+        margin-top: 1%;
+        margin-bottom:1%;
+}
+
+.row-diseño-abajo{
+  margin-top: -10%;
+}
+
+#desplegable input[type="checkbox"]:checked ~ label {
+    background-image: url("../img/fondos/fondo5.png");
+}
+#desplegable input[type="checkbox"]:checked ~ label:after {
+          content: 'Ocultar ';
+           margin-left: 2.5%;
+}
+#desplegable input[type="checkbox"]:checked ~ .desplegarEste {
+          display: block;
+}
+
+
+/*DESPLEGABLE MEDIA QUERY*/
+
+
+@media only screen and (max-width: 808px) {
+  #desplegable label:after {
+          content: 'Diseño Gráfico';
+
+          position: absolute;
+          margin-top: 5%;
+           left: 70px;
+              font-family: 'Fredoka One';
+              font-weight: 100;
+
+          font-size: 25px;
+}
+
+}
+
+
+@media only screen and (max-width: 808px) {
+
+.icono-bajar{
+    
+    margin-left: 2%;
+     margin-top: 17%;
+  font-size: 25px;
+}
+}
+
+
+@media only screen and (max-width: 808px) {
+#desplegable input[type="checkbox"]:checked ~ label:after {
+          content: 'Ocultar Diseño Gráfico';
+           margin-left: -3%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*CONTACTO*/
 
  #contact{
   background-color: #FF2E63;
 padding: 5% 0% 0% 0%;
+margin-top: 0%;
 
 }
 
@@ -424,7 +601,7 @@ padding: 0% 0% 3%% 0%;
 
   margin: 0px auto;
   text-align: center;
-  padding: 50px 0 110px;
+  padding: 90px 0 110px;
   width: 80%;
  
   font-size: 62.5%;
@@ -585,7 +762,7 @@ form {
 @media only screen and (max-width: 608px) {
 
 form input[type="submit"]{
-    margin: 10px 47px;
+    margin: 10px 70px;
 }
 
 }

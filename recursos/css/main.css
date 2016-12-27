@@ -530,9 +530,7 @@ max-height: 40px;
 .testimonial-sliders .owl-controls .owl-buttons div {
     background: transparent !important;
 }
-.testimonial-sliders .owl-controls .owl-next {
-    float: right;
-}
+
 
 /*------------------------- Slide End -------------------*/
 
@@ -776,57 +774,9 @@ ___
 
 
 
-
-/*botones carrusel*/
-.owl-carousel .owl-nav .owl-next {
-    position: absolute;
-    left: 0;
-    top: 21%;
-    
-    font-size: 35px;
-}
-.owl-carousel .owl-nav .owl-prev {
-    position: absolute;
-    right: 0;
-    top: 21%;
-    font-size: 35px;
-}
-
-
-
-.owl-carousel .owl-nav .owl-next:hover {
-    position: absolute;
-    left: 0;
-    top: 21%;
-    
-    font-size: 35px;
-}
-.owl-carousel .owl-nav .owl-prev;hover {
-    position: absolute;
-    right: 0;
-    top: 21%;
-    font-size: 35px;
-}
-
-
-.carousel-item .text-center {
-    padding: 0px 50px;
-}
-
-.owl-theme .owl-nav [class*=owl-]:hover {
-    text-decoration: none;
-    padding-right: 3px;
-    border-radius: 5px;
-}
-
-
-/* fin botones carrusel*/
-
-
 .testimonial-speech {
     padding-left: 15px;
     padding-right: 15px;
-    font-family: 'weblysleek_uisemilight_italic';
 }
 
 /*------------------- Testimonial End ----------------------*/
@@ -1172,7 +1122,7 @@ p.popup-parapraph {
 
 .vermas:link{
 	text-decoration: none;
-	color: #08D9D6;
+	color: #FF2E63;
 }
 
 .titulo-img {

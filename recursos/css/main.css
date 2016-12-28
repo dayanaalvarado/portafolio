@@ -88,7 +88,7 @@ button[disabled], html input[disabled] {
 	background-color: #c1c1c1;
 	color: #fff;
 	padding: 13px 40px;
-	border-radius: 0px;	
+	border-radius: 0px;
 }
 .btn-fit {
 	color: #fff;
@@ -140,7 +140,7 @@ tr td:nth-child(2), tr th:nth-child(2) {
 }
 
 .checkbox-inline, .radio-inline {
-	
+
 	font-size: 15px;
 	margin: 25px 0px 0px 0px;
 }
@@ -207,7 +207,7 @@ img.img-responsive {
 }
 
 .text {
-	background-color: #1e2026 ; 
+	background-color: #1e2026 ;
 	text-align: center;
 	padding-top: 70px;
 	padding-bottom: 70px;
@@ -340,7 +340,7 @@ ul.social-icon {
 }
 
 .table-hover>tbody>tr:hover {
-     background-color: #202228; 
+     background-color: #202228;
 }
 
 @media only screen and (max-width: 768px) {
@@ -750,6 +750,9 @@ body.is-menu-visible #menu {
     font-size: 49px;
     margin-left: -55px;
     position: fixed;
+        background: #252A34;
+    padding: 0.6%;
+    border-radius: 28%;
 }
 
 
@@ -760,6 +763,7 @@ body.is-menu-visible #menu {
     font-size: 38px;
     margin-left: -28px;
     position: fixed;
+    padding: 2%;
 }
 }
 
@@ -943,7 +947,7 @@ a {
 }
 
 .slide1 {
-    background: url(../images/slider1.jpg);  
+    background: url(../images/slider1.jpg);
 }
 .slide2 {
     background: url(../images/slider2.jpg);
@@ -1010,7 +1014,7 @@ a {
     }
 }
 
-.grid-item-width2 { 
+.grid-item-width2 {
 	width: auto;
     height: 321px;
 }

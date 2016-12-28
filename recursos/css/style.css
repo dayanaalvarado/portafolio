@@ -6,8 +6,8 @@
 body{
 	margin: 0%;
 	padding:0%;
-  
 
+overflow-x: hidden
 }
 
 
@@ -29,7 +29,7 @@ h1, h2 , h3 , h4 , h5 , h6{
 
 /*HEADER*/
 
-@media only screen and (max-width: 608px) {
+@media only screen and (max-width: 808px) {
 
 .portafolio{
 margin-top: 70%;
@@ -74,6 +74,15 @@ margin-top: 70%;
   margin-top: 10%;
 }
 
+
+@media only screen and (max-width: 608px) {
+
+.header-intro {
+    background-image: url(../img/fondos/fondo4.png);
+    background-repeat: repeat;
+    height: 484px;
+}
+}
 /*INTRO*/
 
 /*ABOUT*/
@@ -87,14 +96,14 @@ margin-top: 70%;
 .about{
 	    background-color: #ff2e63;
     height: 521px;
-    padding-bottom: 5%;	
+    padding-bottom: 5%;
 }
 
 }
 
 .about{
 	    background-color: #ff2e63;
-    height: 521px;
+    height: 540px;
     padding-bottom: 5%;
 }
 
@@ -106,7 +115,7 @@ margin-top: 70%;
     margin: 5% 15%;
     width: 100%;
     background-size: contain;
-    background-repeat: no-repeat;	
+    background-repeat: no-repeat;
 }
 
 
@@ -120,7 +129,7 @@ margin-top: 70%;
     margin: 7% 0% 29% 0%;
     width: 100%;
     background-size: contain;
-    background-repeat: no-repeat;	
+    background-repeat: no-repeat;
 }
 
 }
@@ -129,7 +138,7 @@ margin-top: 70%;
 font-size: 40px;
    color:#252A34;
     margin: 7% 0% 5% 1%;
-    
+
 }
 
 
@@ -137,9 +146,9 @@ font-size: 40px;
 
 .dayana{
 font-size: 30px;
-   
-    margin: 7% 0% 5% 1%;
-    
+
+    margin: 8% 0% 5% 1%;
+
 }
 
 }
@@ -148,8 +157,7 @@ font-size: 30px;
 
 @media only screen and (max-width: 808px) {
 	.perfil-texto{
- 	     width: 353px;
-    margin: 14% 0% 16% 2%;	
+    margin: 3% 0% 16% 0%;
 	}
 }
 
@@ -160,7 +168,7 @@ font-size: 30px;
 .p-perfil {
     color: #252A34;
     width: 90%;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 808px) {
@@ -175,7 +183,7 @@ font-size: 30px;
 
 @media only screen and (max-width: 800px) {
 	.respon{
- 		margin-top: -25%;
+ 		margin-top: -27%;
   margin-bottom: 10%;
 
 	}
@@ -188,8 +196,9 @@ font-size: 30px;
 	.p-perfil {
     color: #252A34;
     margin: -2% 0% 0% -1%;
-    padding: 1%;
-    font-size: 15px;
+    padding: 2%;
+    font-size: 12px;
+    width: 100%;
 }
 }
 
@@ -214,7 +223,7 @@ font-size: 30px;
     position: absolute;
     left: 0;
     top: 21%;
-    
+
     font-size: 35px;
 }
 .owl-carousel .owl-nav .owl-prev {
@@ -230,7 +239,7 @@ font-size: 30px;
     position: absolute;
     left: 0;
     top: 21%;
-    
+
     font-size: 35px;
 }
 .owl-carousel .owl-nav .owl-prev;hover {
@@ -242,7 +251,9 @@ font-size: 30px;
 
 
 .carousel-item .text-center {
-    padding: 0px 50px;
+    padding: -10px 50px;
+    height: 280px;
+
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
@@ -261,7 +272,7 @@ font-size: 30px;
 .skills {
 	    margin-top: -2%;
     text-align: center;
-    padding: 90px 0px;
+    padding:55px 0px;
  background-image: url(../img/fondos/fondo3.png);
 }
 
@@ -275,7 +286,7 @@ font-weight: 900;
 }
 
 .p-bajo-img{
-	margin-top: 4%;
+	margin-top: 8%;
 font-size: 14px;
 }
 
@@ -286,7 +297,7 @@ font-size: 14px;
 
 .img-skills{
 display: inline-flex;
-margin: 1% 0% 0% 0%;
+margin: 5% 0% 0% 0%;
 }
 
 .textos-skills{
@@ -316,9 +327,9 @@ margin: 1% 0% 0% 0%;
   right: 0;
   margin: 0 auto;
   z-index: 10;
-  margin: 4% 10% 10% 10%;
+  margin: -ski4% 10% 10% 10%;
 }
-	
+
 }
 
 
@@ -346,8 +357,8 @@ font-size: 13px;
 .edu-1 {
 	display: inline-block;
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -438,9 +449,13 @@ margin-top: 5%;
     width: 100%;
     height: 120px;
     cursor: pointer;
-    color: #252A34;
+    color: #252a34;
     margin-top: -0.8%;
-    background-image: url(../img/fondos/fondo5.png);
+    /* background-image: url(../img/fondos/fondo5.png); */
+    background-color: #ff2e63;
+    margin-bottom: 0%;
+    border-bottom-style: double;
+    border-bottom-color: rgba(160, 5, 45, 0.39);
 }
 #desplegable label:after {
           content: 'Diseño Gráfico';
@@ -464,7 +479,6 @@ margin-top: 5%;
 
 .img-diseño{
   width: 100%;
-  background-color:red;
   height: 250px;
   margin: 1% 0% 1% 0%;
 }
@@ -478,8 +492,16 @@ margin-top: 5%;
         margin-bottom:1%;
 }
 
+.piezas-graficas{
+	font-size: 20px;
+
+	color:#252A34;
+	margin:1%;
+	margin-bottom: 3%;
+}
+
 .row-diseño-abajo{
-  margin-top: -10%;
+  margin-top: -2%;
 }
 
 #desplegable input[type="checkbox"]:checked ~ label {
@@ -516,9 +538,9 @@ margin-top: 5%;
 @media only screen and (max-width: 808px) {
 
 .icono-bajar{
-    
+
     margin-left: 2%;
-     margin-top: 17%;
+     margin-top: 26%;
   font-size: 25px;
 }
 }
@@ -526,17 +548,50 @@ margin-top: 5%;
 
 @media only screen and (max-width: 808px) {
 #desplegable input[type="checkbox"]:checked ~ label:after {
-          content: 'Ocultar Diseño Gráfico';
-           margin-left: -3%;
+          content: 'Ocultar DG';
+
+           margin-bottom: 4%;
 }
 
 }
 
+@media only screen and (max-width: 808px) {
 
 
+.img-diseño{
+  width: 90%;
+  height: 250px;
+  margin: 1% 0% 1% 0%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
 
 
+}
 
+@media only screen and (max-width: 808px) {
+
+.fotos{
+  max-width: 100%;
+  height: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+
+}
+
+
+}
+
+@media only screen and (max-width: 808px) {
+
+.ultima-foto{
+margin-bottom: 6%;
+
+
+}
+
+
+}
 
 
 
@@ -568,7 +623,7 @@ margin-top: 0%;
 }
 
 .iconos-social{
- width: 45px; 
+ width: 45px;
  height: 45px;
  margin-bottom: 2%;
 }
@@ -603,14 +658,14 @@ padding: 0% 0% 3%% 0%;
   text-align: center;
   padding: 90px 0 110px;
   width: 80%;
- 
+
   font-size: 62.5%;
   font-weight: 300;
 }
 .contacto {
   margin-bottom: 40px;
   font-size: 4em;
-  
+
 }
 
 form {
@@ -621,10 +676,10 @@ form .field {
   width: 100%;
   position: relative;
   margin-bottom: 15px;
- 
+
 }
 form .field label {
-  
+
   position: absolute;
   top: 0;
   left: 0;
@@ -712,7 +767,7 @@ form input[type="submit"] {
   color: #252A34;
   -webkit-appearance: none;
   border: none;
-  
+
   position: relative;
   padding: 13px 50px;
   font-size: 1.4em;
@@ -762,7 +817,7 @@ form {
 @media only screen and (max-width: 608px) {
 
 form input[type="submit"]{
-    margin: 10px 70px;
+    margin: 10px 4px;
 }
 
 }

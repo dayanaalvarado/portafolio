@@ -236,9 +236,7 @@ img.img-responsive {
 	color: #fff;
 }
 
-.contact {
-	border-top: 1px solid red;
-}
+
 
 /*=-=-=-=-=-=-==-=-=- Contact Info =-=-=-=-=-=-=-=-=-=-=-=-*/
 
@@ -474,23 +472,9 @@ a.notify-me {
     padding: 10px;
 }
 
-.logo{
-max-width: 80px;
-max-height: 80px;
-}
 
 
 
-
-@media only screen and (max-width: 408px) {
-
-.logo{
-max-width: 40px;
-max-height: 40px;
-	}
-}
-
-}
 /*-------------------------- Element Head End ----------------------------*/
 
 /*------------------------ Slide Start ------------------*/
@@ -594,12 +578,12 @@ max-height: 40px;
 	padding: 0;
 }
 #menu > .inner > h2 {
-	list-style: none;
-	padding-bottom: 30px;
-	margin-top: 10px;
-	margin-bottom: 15px;
-	font-weight: bold;
-	color: #FF2E63;
+	    list-style: none;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    /* font-weight: normal; */
+    color: #f9fafb;
 }
 
 #menu > .inner > ul > li {
@@ -746,11 +730,10 @@ body.is-menu-visible #menu {
 
 
 .nav-bars i {
-    color: #FF2E63;
+    color: #252a34;
     font-size: 49px;
     margin-left: -55px;
     position: fixed;
-        background: #252A34;
     padding: 0.6%;
     border-radius: 28%;
 }

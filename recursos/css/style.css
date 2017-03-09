@@ -33,22 +33,10 @@ h1, h2 , h3 , h4 , h5 , h6{
 
 
 .logoday{
-  height: 450px;
+    height: 520px;
   margin-top: 5%;
 }
 
-@media only screen and (max-width: 808px) {
-
-.portafolio{
-margin-top: 70%;
-}
-}
-
-@media only screen and (max-width: 508px) {
-	.h1-portafolio {
-		margin-top: 150px;
-	}
-}
 
 .header-intro{
 	background-image: url(../img/fondos/fondo4.png);
@@ -62,15 +50,41 @@ margin-top: 70%;
     letter-spacing: 5px;
 }
 
+/*_________________________________*/
 
+/*mediaquery*/
+
+
+@media only screen and (max-width: 658px) {
+
+.portafolio img{
+margin-top: 20%;
+}
+}
+
+
+@media only screen and (max-width: 658px) {
+
+.logoday{
+  height: 280px;
+}
+}
+
+
+
+@media only screen and (max-width: 508px) {
+  .h1-portafolio {
+    margin-top: 150px;
+  }
+}
 
 
 @media only screen and (max-width: 608px) {
 
 .h1-portafolio{
-	font-size: 40px;
+	font-size: 25px;
 	color: #252A34;
-	margin-top: 24%;
+	margin-top: 2%;
 }
 }
 
@@ -207,6 +221,7 @@ color: #252a34;
     margin: -35% 0% 14% 1%;
     background-size: cover;
     background-repeat: no-repeat;
+        margin-top: -19%;
 	}
 }
 
@@ -237,12 +252,13 @@ color: #252a34;
 /*SKILLS*/
 
 
+
+
+
+
 @media only screen and (max-width: 608px) {
 #skills {
-    margin-top: 53%;
-    text-align: center;
-    padding: 90px 0px;
-    background-image: url(../img/fondos/fondo4.png);
+display: none;
 }
 
 }
@@ -489,9 +505,16 @@ margin-top: 5%;
     margin-bottom:2%;
 }
 
+.p-diseño span{
+     color: #286090;
+}
+
+  
+
 .titulo-diseño{
   margin-top: 5%;
   font-family: 'Didact Gothic', sans-serif;
+
 }
  
 
@@ -528,7 +551,16 @@ top: 0%;
 }
 
 
+    
+@media only screen and (max-width: 608px){
 
+.mascara-diseño {
+   opacity: 0;
+   border:1px solid rgba(0,0,0,0.7);
+   visibility:hidden;
+    margin-left: 2%;
+}
+}
 
 
 .btn {
@@ -854,6 +886,9 @@ form input[type="submit"] {
       font-weight: 700;
 
 }
+
+
+
 form input[type="submit"]:hover {
   background: #78f3f1;
   color: #252a34;
@@ -870,6 +905,7 @@ form input[type="submit"]:focus {
 
 
 /*MEDIA QUERY*/
+
 
 @media only screen and (max-width: 608px) {
 
@@ -898,7 +934,12 @@ form input[type="submit"]{
 
 }
 
-
+@media only screen and (max-width: 608px){
+form input[type="submit"] {
+    margin: 11px -3px;
+    margin-left: 36%;
+}
+}
 
 /*---------------------------------------*/
 
@@ -1024,5 +1065,12 @@ form input[type="submit"]{
 
 .icons-media{
   width: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+   .linkss{
+      display: inline-flex;
+    margin-top: 4%;
+   }
 }
 
